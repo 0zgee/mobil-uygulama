@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".icerik">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="128dp"
+            android:layout_height="79dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/amblem" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="TextView"
+            android:textColor="#E30B0B"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:text="Tuz Oranı"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <SeekBar
+            android:id="@+id/seekBar2"
+            style="@style/Widget.AppCompat.SeekBar.Discrete"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:max="2"
+            android:progress="0" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Acı Oranı"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <SeekBar
+            android:id="@+id/seekBar3"
+            style="@style/Widget.AppCompat.SeekBar.Discrete"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:max="2"
+            android:progress="0" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lütfen İsteklerinizi İşaretleyiniz"
+            android:textColor="#EC0C0C"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="145dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Switch
+                android:id="@+id/sarimsak"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sarımsak"
+                android:textAlignment="textEnd"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:visibility="invisible" />
+
+            <Switch
+                android:id="@+id/nane"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nane"
+                android:textAlignment="textEnd"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:visibility="invisible" />
+
+            <Switch
+                android:id="@+id/dil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dil"
+                android:textAlignment="textEnd"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:visibility="invisible" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Switch
+                android:id="@+id/terbiye"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Terbiye"
+                android:textAlignment="textEnd"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:visibility="invisible" />
+
+            <Switch
+                android:id="@+id/beyin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Beyin"
+                android:textAlignment="textEnd"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:visibility="invisible" />
+
+            <Switch
+                android:id="@+id/sirke"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sirke"
+                android:textAlignment="textEnd"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:visibility="invisible" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Switch
+                android:id="@+id/krema"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Krema"
+                android:textAlignment="textEnd"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:visibility="invisible" />
+
+            <Switch
+                android:id="@+id/yag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yağ"
+                android:textAlignment="textEnd"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:visibility="invisible" />
+
+            <Switch
+                android:id="@+id/kasar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kaşar"
+                android:textAlignment="textEnd"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:visibility="invisible" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Switch
+                android:id="@+id/kitir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kıtır"
+                android:textAlignment="textEnd"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:visibility="invisible" />
+
+            <Switch
+                android:id="@+id/limon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Limon"
+                android:textAlignment="textEnd"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:visibility="invisible" />
+
+            <Switch
+                android:id="@+id/tozbiber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Toz Biber"
+                android:textAlignment="textEnd"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:visibility="invisible" />
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ekstra İsteklerinizi Yazabilirsiniz"
+            android:textColor="#E80B0B"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/ek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textSize="20dp"
+            android:hint="Başka Bir Arzunuz?"
+            android:textColorHint="#7E6C6C"
+            android:textColor="@color/white"
+            android:inputType="textPersonName"
+            android:text=""/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="226dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="#F30A0A"
+            android:text="Sipariş Ver"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+</LinearLayout>
